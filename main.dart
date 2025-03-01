@@ -1,5 +1,6 @@
-largest(x, y) => (x>y) ? x : y;
+import "libraries/mymath.dart";
 
 main(){
-    print(largest(2,1));
+    var math = new MyMath();
+    math.add(4,5);
 }
